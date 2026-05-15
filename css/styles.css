@@ -104,9 +104,273 @@ body {
 .producto-img {
     width: 100%;
     height: 230px;
-    object-fit: cover;
+    object-fit: contain;
     background: #f0f0f0;
     display: block;
+    padding: 10px;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.15);
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+    padding: 5px 7px;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 50%;
+    line-height: 1;
+    transition: background 0.2s, opacity 0.3s;
+    opacity: 0;
+}
+
+.slider:hover .slider-btn {
+    opacity: 1;
+}
+
+.slider-btn:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.slider-btn.prev {
+    left: 8px;
+}
+
+.slider-btn.next {
+    right: 8px;
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    z-index: 3;
+}
+
+.slider-dots .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.slider-dots .dot.active {
+    background: #fff;
+}
+
+/* Zoom Icon - hidden */
+.zoom-icon {
+    display: none;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Etiquetas */
+.badge-etiqueta {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    border-radius: 12px;
+    z-index: 2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-nuevo {
+    background: #2ecc71;
+    color: #fff;
+}
+
+.badge-agotado {
+    background: #888;
+    color: #fff;
+}
+
+/* Botón agotado */
+.btn-agotado {
+    background: #d9534f;
+    color: #fff;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.85;
+}
+
+.texto-agotado {
+    text-align: center;
+    color: #999;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 12px;
+    margin-top: auto;
+}
+
+.producto.agotado {
+    opacity: 0.65;
+}
+
+.producto.agotado .producto-img {
+    cursor: default;
+}
+
+/* Scroll to top */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 44px;
+    height: 44px;
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 9998;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.scroll-top-btn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top-btn:hover {
+    background: #444;
+}
+
+/* Lazy placeholder */
+.lazy {
+    background: #e8e8e8;
+}
+
+.slider-single {
+    position: relative;
+}
+
+/* Modal */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2.5rem;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10001;
+    line-height: 1;
+    padding: 5px 10px;
+}
+
+.modal-img-container {
+    max-width: 90vw;
+    max-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.modal-img {
+    max-width: 100%;
+    max-height: 75vh;
+    object-fit: contain;
+    transition: transform 0.2s;
+    cursor: zoom-in;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: none;
+    font-size: 1.8rem;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10001;
+    transition: background 0.2s;
+}
+
+.modal-nav:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.modal-prev {
+    left: 15px;
+}
+
+.modal-next {
+    right: 15px;
+}
+
+.modal-dots {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.modal-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.modal-dot.active {
+    background: #fff;
 }
 
 .producto-info {
@@ -314,5 +578,9 @@ body {
 @media (max-width: 480px) {
     .banner-text {
         animation-duration: 35s;
+    }
+
+    .slider-btn {
+        opacity: 0.5;
     }
 }

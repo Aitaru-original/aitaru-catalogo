@@ -1,44 +1,146 @@
 [
   {
     "nombre": "Nike Air Max 90",
-    "imagen": "marca/niño/adidas/modelo-1-adiddas.webp",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
     "tallas": ["38", "39", "40", "41", "42"],
-    "precioRetail": 400,
-    "precioExclusivo": 379
+    "precioRetail": 549,
+    "precioExclusivo": 379,
+    "etiqueta": "nuevo"
   },
   {
     "nombre": "Adidas Ultraboost 23",
-    "imagen": "marca/niño/adidas/modelo-1-adiddas.webp",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
     "tallas": ["39", "40", "41", "42", "43"],
     "precioRetail": 699,
-    "precioExclusivo": 519
+    "precioExclusivo": 519,
+    "etiqueta": ""
   },
   {
     "nombre": "New Balance 574",
-    "imagen": "marca/niño/adidas/modelo-1-adiddas.webp",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
     "tallas": ["37", "38", "39", "40", "41"],
     "precioRetail": 459,
-    "precioExclusivo": 299
+    "precioExclusivo": 299,
+    "etiqueta": "nuevo"
   },
   {
     "nombre": "Puma RS-X",
-    "imagen": "marca/niño/adidas/modelo-1-adiddas.webp",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
     "tallas": ["38", "39", "40", "41", "42", "43"],
     "precioRetail": 499,
-    "precioExclusivo": 399
+    "precioExclusivo": 399,
+    "etiqueta": ""
   },
   {
     "nombre": "Nike Dunk Low",
-    "imagen": "marca/niño/adidas/modelo-1-adiddas.webp",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
     "tallas": ["38", "39", "40", "41"],
     "precioRetail": 599,
-    "precioExclusivo": 359
+    "precioExclusivo": 359,
+    "etiqueta": "agotado"
   },
   {
     "nombre": "Adidas Samba OG",
-    "imagen": "marca/niño/adidas/modelo-1-adiddas.webp",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-2-adiddas.webp"],
     "tallas": ["37", "38", "39", "40", "41", "42"],
     "precioRetail": 479,
-    "precioExclusivo": 345
+    "precioExclusivo": 345,
+    "etiqueta": ""
+  },
+   {
+    "nombre": "Nike Air Max 90",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["38", "39", "40", "41", "42"],
+    "precioRetail": 549,
+    "precioExclusivo": 379,
+    "etiqueta": "nuevo"
+  },
+  {
+    "nombre": "Adidas Ultraboost 23",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["39", "40", "41", "42", "43"],
+    "precioRetail": 699,
+    "precioExclusivo": 519,
+    "etiqueta": ""
+  },
+  {
+    "nombre": "New Balance 574",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["37", "38", "39", "40", "41"],
+    "precioRetail": 459,
+    "precioExclusivo": 299,
+    "etiqueta": "nuevo"
+  },
+  {
+    "nombre": "Puma RS-X",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["38", "39", "40", "41", "42", "43"],
+    "precioRetail": 499,
+    "precioExclusivo": 399,
+    "etiqueta": ""
+  },
+  {
+    "nombre": "Nike Dunk Low",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["38", "39", "40", "41"],
+    "precioRetail": 599,
+    "precioExclusivo": 359,
+    "etiqueta": "agotado"
+  },
+  {
+    "nombre": "Adidas Samba OG",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-2-adiddas.webp"],
+    "tallas": ["37", "38", "39", "40", "41", "42"],
+    "precioRetail": 479,
+    "precioExclusivo": 345,
+    "etiqueta": ""
+  },
+   {
+    "nombre": "Nike Air Max 90",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["38", "39", "40", "41", "42"],
+    "precioRetail": 549,
+    "precioExclusivo": 379,
+    "etiqueta": "nuevo"
+  },
+  {
+    "nombre": "Adidas Ultraboost 23",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["39", "40", "41", "42", "43"],
+    "precioRetail": 699,
+    "precioExclusivo": 519,
+    "etiqueta": ""
+  },
+  {
+    "nombre": "New Balance 574",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["37", "38", "39", "40", "41"],
+    "precioRetail": 459,
+    "precioExclusivo": 299,
+    "etiqueta": "nuevo"
+  },
+  {
+    "nombre": "Puma RS-X",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["38", "39", "40", "41", "42", "43"],
+    "precioRetail": 499,
+    "precioExclusivo": 399,
+    "etiqueta": ""
+  },
+  {
+    "nombre": "Nike Dunk Low",
+    "imagenes": ["marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp","marca/niño/adidas/modelo-2-adiddas.webp", "marca/niño/adidas/modelo-1-adiddas.webp"],
+    "tallas": ["38", "39", "40", "41"],
+    "precioRetail": 599,
+    "precioExclusivo": 359,
+    "etiqueta": "agotado"
+  },
+  {
+    "nombre": "Adidas Samba OG",
+    "imagenes": ["marca/niño/adidas/modelo-1-adiddas.webp", "marca/niño/adidas/modelo-2-adiddas.webp"],
+    "tallas": ["37", "38", "39", "40", "41", "42"],
+    "precioRetail": 479,
+    "precioExclusivo": 345,
+    "etiqueta": ""
   }
 ]
