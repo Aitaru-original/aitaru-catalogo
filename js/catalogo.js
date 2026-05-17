@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('data/productos.json?v=2')
         .then(res => res.json())
         .then(productos => {
+            // Ordenar: nuevos primero, agotados al final
+            productos.sort((a, b) => {
+                if (a.etiqueta === 'nuevo' && b.etiqueta !== 'nuevo') return -1;
+                if (a.etiqueta !== 'nuevo' && b.etiqueta === 'nuevo') return 1;
+                if (a.etiqueta === 'agotado' && b.etiqueta !== 'agotado') return 1;
+                if (a.etiqueta !== 'agotado' && b.etiqueta === 'agotado') return -1;
+                return 0;
+            });
             renderProductos(productos);
             initModal();
             initScrollTop();

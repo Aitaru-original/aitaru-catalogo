@@ -41,10 +41,10 @@
   {
     "nombre": "Puma Court Classic Clean",
     "imagenes": [
-      "marca/niño/puma/puma-zapatillas-court-classic-clean-1.webp", 
-      "marca/niño/puma/puma-zapatillas-court-classic-clean-2.webp",
-      "marca/niño/puma/puma-zapatillas-court-classic-clean-3.webp",
-      "marca/niño/puma/puma-zapatillas-court-classic-clean-4.webp"],
+      "marca/niño/puma/Court-Classic-Clean-Sneakers-Toddlers-2.avif", 
+      "marca/niño/puma/Court-Classic-Clean-Sneakers-Toddlers-1.avif",
+      "marca/niño/puma/Court-Classic-Clean-Sneakers-Toddlers-3.avif",
+      "marca/niño/puma/Court-Classic-Clean-Sneakers-Toddlers-2.avif"],
     "tallas": [
       {"numero": "22", "disponible": false},
       {"numero": "23", "disponible": true},
@@ -56,8 +56,7 @@
     "precioRetail": 139,
     "precioExclusivo": 99,
     "etiqueta": ""
-  }
-  ,
+  },
   {
     "nombre": "Puma Smash FUN LV",
     "imagenes": [
@@ -76,5 +75,85 @@
     "precioRetail": 149,
     "precioExclusivo": 99,
     "etiqueta": ""
+  },
+  {
+    "nombre": "Adidas Tensaur Sport 3.0 - Niña",
+    "imagenes": [
+      "marca/niño/adidas/tensaur-sport-3.0-1.avif"],
+    "tallas": [
+      {"numero": "22", "disponible": false},
+      {"numero": "23", "disponible": false},
+      {"numero": "24", "disponible": false},
+      {"numero": "25", "disponible": false},
+      {"numero": "26", "disponible": false},
+      {"numero": "27", "disponible": false}
+    ],
+    "precioRetail": 149,
+    "precioExclusivo": 119,
+    "etiqueta": "agotado"
+  },
+  {
+    "nombre": "Nike Court Borough Low",
+    "imagenes": [
+      "marca/niño/nike/nike-court-borough-low-recraft-1.webp"],
+    "tallas": [
+      {"numero": "22", "disponible": false},
+      {"numero": "23", "disponible": false},
+      {"numero": "24", "disponible": false},
+      {"numero": "25", "disponible": false},
+      {"numero": "26", "disponible": false},
+      {"numero": "27", "disponible": false}
+    ],
+    "precioRetail": 179,
+    "precioExclusivo": 139,
+    "etiqueta": "agotado"
+  },
+  {
+    "nombre": "Nike Court Borough Low Blue",
+    "imagenes": [
+      "marca/niño/nike/nike-court-borough-low-recraft-blue-1.webp"],
+    "tallas": [
+      {"numero": "22", "disponible": false},
+      {"numero": "23", "disponible": false},
+      {"numero": "24", "disponible": false},
+      {"numero": "25", "disponible": false},
+      {"numero": "26", "disponible": false},
+      {"numero": "27", "disponible": false}
+    ],
+    "precioRetail": 179,
+    "precioExclusivo": 139,
+    "etiqueta": "agotado"
+  },
+  {
+    "nombre": "Nike Flex Runner 4",
+    "imagenes": [
+      "marca/niño/nike/nike-flex-runner4-1.webp"],
+    "tallas": [
+      {"numero": "22", "disponible": false},
+      {"numero": "23", "disponible": false},
+      {"numero": "24", "disponible": false},
+      {"numero": "25", "disponible": false},
+      {"numero": "26", "disponible": false},
+      {"numero": "27", "disponible": false}
+    ],
+    "precioRetail": 189,
+    "precioExclusivo": 139,
+    "etiqueta": "agotado"
+  },
+  {
+    "nombre": "Adidad Breaknet 3.0",
+    "imagenes": [
+      "marca/niño/adidas/breaknet-3.0-1.avif"],
+    "tallas": [
+      {"numero": "22", "disponible": false},
+      {"numero": "23", "disponible": false},
+      {"numero": "24", "disponible": false},
+      {"numero": "25", "disponible": false},
+      {"numero": "26", "disponible": false},
+      {"numero": "27", "disponible": false}
+    ],
+    "precioRetail": 169,
+    "precioExclusivo": 129,
+    "etiqueta": "agotado"
   }
 ]
