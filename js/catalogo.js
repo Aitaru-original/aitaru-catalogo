@@ -1,7 +1,7 @@
 const WHATSAPP_NUMERO = '51923537783';
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('data/productos.json')
+    fetch('data/productos.json?v=2')
         .then(res => res.json())
         .then(productos => {
             renderProductos(productos);
@@ -225,7 +225,7 @@ function initModal() {
     });
 
     function openModal(productIndex) {
-        fetch('data/productos.json')
+        fetch('data/productos.json?v=2')
             .then(res => res.json())
             .then(productos => {
                 const producto = productos[productIndex];
