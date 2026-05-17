@@ -19,7 +19,14 @@ function renderProductos(productos) {
     productos.forEach((producto, index) => {
         const descuento = Math.round((1 - producto.precioExclusivo / producto.precioRetail) * 100);
         const mensaje = encodeURIComponent(`Hola, me interesa la ${producto.nombre} a S/ ${producto.precioExclusivo}. ¿Está disponible?`);
-        const tallasHTML = producto.tallas.map(t => `<span>${t}</span>`).join('');
+        const tallasHTML = producto.tallas.map(t => {
+            if (typeof t === 'object') {
+                return t.disponible
+                    ? `<span>${t.numero}</span>`
+                    : `<span class="talla-agotada">${t.numero}</span>`;
+            }
+            return `<span>${t}</span>`;
+        }).join('');
         const imagenes = producto.imagenes || [producto.imagen];
         const tieneMultiples = imagenes.length > 1;
         const esAgotado = producto.etiqueta === 'agotado';
